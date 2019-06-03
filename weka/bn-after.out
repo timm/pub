@@ -1,0 +1,39 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     bn-weka.filters.unsupervised.attribute.Remove-R1-6,8-12,14-22,24-28,30
+Instances:    31
+Attributes:   5
+              S7
+              D3
+              P5
+              KLoC
+              Defects
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+Defects =
+
+    876.3379 * S7=VL +
+   -292.9474 * D3=L,M +
+    483.6206 * P5=M +
+      5.5113 * KLoC +
+     95.4278
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9567
+Mean absolute error                    199.8668
+Root mean squared error                250.2727
+Relative absolute error                 37.3225 %
+Root relative squared error             29.3277 %
+Total Number of Instances               31     
+
+

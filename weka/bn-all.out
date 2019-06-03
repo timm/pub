@@ -1,0 +1,114 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     bn
+Instances:    31
+Attributes:   31
+              S1
+              S2
+              S3
+              S4
+              S5
+              S6
+              S7
+              F1
+              F2
+              F3
+              D1
+              D2
+              D3
+              D4
+              T1
+              T2
+              T3
+              T4
+              P1
+              P2
+              P3
+              P4
+              P5
+              P6
+              P7
+              P8
+              P9
+              Hours
+              KLoC
+              Language
+              Defects
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+Defects =
+
+     82.2598 * S1=L,M,VH +
+    158.6084 * S1=M,VH +
+    249.407  * S1=VH +
+     41.0283 * S2=L,H +
+     68.9149 * S2=H +
+    151.9208 * S3=M,H +
+    125.4786 * S3=H +
+    257.8695 * S4=H,M,VL +
+    108.1679 * S4=VL +
+    134.9064 * S5=L,M +
+   -385.7143 * S6=H,M,VH +
+    115.5933 * S6=VH +
+   -178.9597 * S7=H,L,M,VL +
+    -64.3614 * S7=L,M,VL +
+    561.6316 * S7=VL +
+    148.507  * F1=M,H,VH +
+     89.8497 * F1=H,VH +
+    275.5913 * F2=M,H,VH +
+     57.1434 * F2=H,VH +
+     44.6259 * F2=VH +
+   -248.7493 * F3=VH,H +
+     61.4351 * F3=H +
+    182.1098 * D1=L,H,VL,M +
+     76.5141 * D1=VL,M +
+     64.7627 * D1=M +
+    -76.7718 * D2=H,L,VL,M +
+     86.1023 * D2=VL,M +
+   -237.3179 * D3=L,M +
+   -176.4205 * D3=M +
+    373.403  * D4=H,M +
+    182.5507 * D4=M +
+   -109.1868 * T1=H,VL +
+   -306.8856 * T1=VL +
+    164.7725 * T2=H,L,M,VL +
+     48.064  * T2=L,M,VL +
+     60.9897 * T3=VH,H,M +
+    -63.5426 * T3=H,M +
+    -33.2441 * T3=M +
+    -81.6968 * T4=L,M +
+    117.0355 * P1=VH,H +
+     67.9515 * P1=H +
+    137.9886 * P4=M,L,H +
+    217.6196 * P4=L,H +
+   -203.555  * P4=H +
+    141.8864 * P5=VH,M +
+    278.7507 * P5=M +
+     43.2664 * P6=H +
+    224.4323 * P7=H,M +
+    926.3455 * P7=M +
+     95.0386 * P8=VH,M +
+     70.1049 * P9=H +
+      0.0037 * Hours +
+      2.4277 * KLoC +
+  -1544.5342
+
+Time taken to build model: 0.18 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.445 
+Mean absolute error                    542.8057
+Root mean squared error                799.1213
+Relative absolute error                101.3618 %
+Root relative squared error             93.6433 %
+Total Number of Instances               31     
+
+
